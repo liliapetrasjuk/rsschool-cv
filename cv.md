@@ -27,3 +27,20 @@ function grow(x){
   return x.reduce((a,b)=> a*b)
 }
 ```
+
+## Experience
+
+> *I hope there will be information soon...*
+
+## Education
+
+* 2007-2012 Kherson National Technical University  
+   * Standardization and Certification 
+*  RS School
+   * FRONT-END. STAGE 0
+
+## Languages
+
+**English**   -   Pre-Intermediate (A2)
+**Ukrainian**  -  Native
+**Russian**   -   Native
