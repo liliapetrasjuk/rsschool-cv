@@ -1,0 +1,167 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    list-style: none;
+}
+
+body{
+    margin: 25px auto;
+    width: 800px;
+}
+
+header{    
+    background-color:#30BA8F;
+    color: white;   
+    display: flex;    
+}
+
+.left_column{
+    width: 350px;
+    padding: 0px 20px;
+   }
+
+.right_column{
+    width: calc(100%-250px);
+    padding-left: 20px;
+    margin-left: 20px;
+}
+
+.profile_photo{
+    text-align: center;
+    padding: 20px 20px;
+}
+
+.profile_photo img{
+    width: 250px;
+    border-radius: 50%;
+    border: 5px solid white;
+}
+
+.profile_name{
+    width: 400px;
+    padding: 80px;    
+    text-align: center;
+}
+
+h1{
+    font-weight: 300px;
+    font-style: italic;
+    font-size: 54px;
+}
+
+main{
+    display: flex;
+    background-color:#F5F5F5;
+    color: #000000;
+    padding-bottom: 50px;
+}
+
+h2{
+    padding: 10px;
+    margin: 10px;
+    letter-spacing: 1px;
+    text-align: center;
+    }
+
+.my_contacts{
+        position: relative;
+        padding-left: 30px;
+    }
+
+.profil_contacts li{
+    display: flex;
+    position: relative;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    padding: 0;
+}
+
+main p{
+    padding: 0 10px;
+    margin-left: 10px;
+    line-height: 1.5;
+    
+}
+
+main a{
+    padding: 0 10px;
+    margin-left: 10px;
+}
+
+.profil_skills{
+    margin-bottom: 10px;
+    position: relative;
+    padding: 0;
+    margin-left: 10px;
+}
+
+.profil_skills li{
+    list-style: disc;
+    margin-left: 20px;
+}
+
+.profil_skills p{
+    padding:0 10px;
+    margin-top: 10px;
+}
+
+.profil_languages{
+    margin-left: 10px;
+    margin-bottom: 10px;
+    position: relative;
+    padding: 0;
+}
+
+.profil_languages li{
+    list-style: disc;
+    margin-left: 20px;
+}
+
+.profil_languages p{
+    padding: 0 10px;
+    margin: 0;
+    margin-bottom: 10px;
+}
+
+.profil_education li{
+    list-style: none;
+    margin-bottom: 10px;
+    margin-left: 20px;
+}
+
+.example p{
+    font-style: italic;
+    margin-bottom: 20px;
+}
+
+pre {
+    margin-left: 20px;
+    width: 400px;
+    height: 100px;
+    background-color: #D0D0D0;
+}
+
+footer{
+    background-color: #30BA8F;
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo_rss{
+    width: 50%;
+    margin: 0;
+    padding: 10px;
+}
+
+.logo_1{
+    width: auto;
+    height: 50px;
+}
+
+.logo_2{
+    width: auto;
+    height: 70px;
+    }
